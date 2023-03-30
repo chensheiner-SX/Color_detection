@@ -1,7 +1,7 @@
 import cv2
 import sys
 import numpy as np
-
+# https://medium.com/programming-fever/how-to-find-hsv-range-of-an-object-for-computer-vision-applications-254a8eb039fc
 image = cv2.imread('ogen_car_stamps/55873_003.png')
 scale_percent = 4  # percent of original size
 width = int(image.shape[1] * scale_percent )
